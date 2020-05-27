@@ -1,2 +1,4 @@
 # FlasknScrap
-Snapdeal Scraper
+                                                            Snapdeal Scraper
+This project deals with scrapping the information from snapdeal and gathering the information about various products ( product prices and images). The details of the products are shown when one searches for it. The scrapping is done with the help of beautifulsoup library ,flask application is used  parse the collected data and display it as HTML in a new HTML file and the request module allows us to send http requests to the snapdeal website.
+After importing the requests library as well as the request object from Flask. The former is used to send external HTTP GET requests to grab the specific user-provided URL, while the latter is used to handle GET and POST requests within the Flask app. Next, we added variables to capture both errors and results, which are passed into the template. 
